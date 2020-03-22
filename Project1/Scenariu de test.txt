@@ -1,0 +1,49 @@
+Scenariu de test:
+Se creaza un eveniment la care pot participa doua persoane.
+Se adauga 5 persoane cu urmatoarele date:
+Rizea George, rizea.george, 001
+Popescu Ionut, pop.ionut@email.com, 002
+Ion Marius, marius.ion, 003
+Gheorghe Stan, gheorghe.stan@email.com, 004
+Stanescu Grigore, stanescu.grigore, 005
+
+Afisam lista invitatiilor care participa la eveniment. Acestia vor fi
+Rizea George, rizea.george, 001
+Popescu Ionut, pop.ionut@email.com, 002
+
+Afisam lista invitatiilor care se afla pe lista de asteptare. Acestia vor fi
+Ion Marius, marius.ion, 003
+Gheorghe Stan, gheorghe.stan@email.com, 004
+Stanescu Grigore, stanescu.grigore, 005
+
+Afisam numarul de invitati ce vor participa la eveniment.
+2
+Afisam numarul de persoane din lista de asteptare.
+3
+
+Modificam e-mailul utilizatorului Rizea George, facand autentificare prin numarul de telefon.
+Noul email al utilizatorului va fi rizea.george@email.com
+
+Modificam e-mailul utilizatorului Ion Marius, facand autentificare prin adresa de e-mail
+Noul email al utilizatorului va fi marius.ion@email.com
+
+Vom face o cautare partiala dupa String-ul Ion, in output ar trebui sa gasim utilizatorii:
+Popescu Ionut, pop.ionut@email.com, 002
+Ion Marius, marius.ion@email.com, 003
+S-a verificat astfel si actualizarea e-mailului utilizatorului Ion Marius
+
+Verificam daca utilizatorul Rizea George este inscris la eveniment prin cautare dupa e-mailul actualizat
+
+Stergem inscrierea utilizatorului Popescu Ionut dupa criteriul de cautare dupa nume 
+
+Afisam invitatii ce vor participa pana la acest moment la eveniment. Acestia sunt:
+Popescu Ionut, pop.ionut@email.com, 002
+Ion Marius, marius.ion@email.com, 003
+
+Participantii din lista de asteptare sunt
+Gheorghe Stan, gheorghe.stan@email.com, 004
+Stanescu Grigore, stanescu.grigore, 005
+
+Afisam nr de locuri disponibile: 0
+Afisam nr total de participanti (invitati + lista de asteptare) : 4
+Afisam nr de persoane din lista de asteptare: 2
